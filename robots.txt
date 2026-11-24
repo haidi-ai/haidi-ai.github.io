@@ -1,0 +1,28 @@
+# ZNGL 几何体检 · robots.txt（2026-11-24）
+# 立场：欢迎 AI 检索与引用；页面不含客户数据，无需限制。
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+# 显式声明（与上面重复，便于审计）
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: Bytespider
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: DeepSeekBot
+Allow: /
+
+Sitemap: https://haidi-ai.github.io/sitemap.xml
